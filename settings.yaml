@@ -1,0 +1,8 @@
+train: ../archive/Warp-D/train/images
+val: ../archive/Warp-D/test/images
+
+nc: 28
+names: ['bottle-blue', 'bottle-green', 'bottle-dark', 'bottle-milk', 'bottle-transp', 'bottle-multicolor', 'bottle-yogurt',
+        'bottle-oil', 'cans', 'juice-cardboard', 'milk-cardboard', 'detergent-color', 'detergent-transparent', 'detergent-box', 'canister',
+        'bottle-blue-full', 'bottle-transp-full', 'bottle-dark-full', 'bottle-green-full', 'bottle-multicolorv-full', 'bottle-milk-full', 
+        'bottle-oil-full', 'detergent-white', 'bottle-blue5l', 'bottle-blue5l-full', 'glass-transp', 'glass-dark', 'glass-green']

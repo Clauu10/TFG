@@ -1,0 +1,29 @@
+# Ignorar el entorno virtual
+venv/
+
+# Ignorar datasets, modelos y carpetas grandes
+/archive/
+/yolov5/
+/runs/
+/cnn1_archive/
+/cnn1_archive_balanced/
+/cnn2_archive/
+/cnn2_archive_balanced/
+/metrics/
+/video_mio/
+/videos/
+
+# Ignorar archivos temporales y caché
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar archivos de configuración local de VS Code
+.vscode/
+
+# Ignorar modelos y logs
+*.pt
+*.log
+*.csv
+*.json
