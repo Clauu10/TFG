@@ -5,7 +5,6 @@ A continuación se explican los pasos para configurar el entorno y ejecutar cada
 ---
 
 ## Requisitos previos
-``
 1. **Python 3.10+** instalado en el sistema.  
 2. Crear y activar un entorno virtual:  
 
