@@ -5,7 +5,7 @@ A continuación se explican los pasos para configurar el entorno y ejecutar cada
 ---
 
 ## Requisitos previos
-
+``
 1. **Python 3.10+** instalado en el sistema.  
 2. Crear y activar un entorno virtual:  
 
@@ -28,12 +28,14 @@ Instalar las librerías necesarias desde el archivo `requirements.txt`:
 pip install -r requirements.txt
 ```
 
-## Vídeos de ejemplo
-Los vídeos necesarios para probar la interfaz no se incluyen en este repositorio por limitaciones de tamaño.
-Puedes descargarlos aquí: [Enlace a Drive](https://drive.google.com/drive/folders/1lqyr85amWihoSfO87a29CQaQQm0nSS9A?usp=drive_link)
-Colócalos dentro de la carpeta 'videos/' en la carpeta raíz del proyecto.
-
 ---
+
+## Recursos externos
+
+Por limitaciones de espacio en GitHub, los modelos entrenados y los vídeos de prueba no están incluidos directamente en el repositorio.  
+
+Puedes descargarlos desde el siguiente enlace:  
+[Descargar recursos](https://drive.google.com/drive/folders/1wnBFOA2DVNN2i2vS-LaKtV_D_cihSAqT?usp=drive_link)
 
 ## Entrenamiento de los modelos
 
@@ -72,12 +74,12 @@ python -m src.classification.validation --type multiclase
 ```bash
 python -m src.classification.validation --type clase
 ```
-
 ---
 
 ### Interfaz gráfica
 
 La interfaz gráfica se ejecuta desde el `main` del proyecto.  
+
 
 ```bash
 python -m src.main
