@@ -30,11 +30,12 @@ pip install -r requirements.txt
 ---
 
 ## Recursos externos
+El dataset para entrenar los modelos de detección y clasificación se encuentra en el siguiente enlace:
+[Dataset](https://www.kaggle.com/datasets/parohod/warp-waste-recycling-plant-dataset?resource=download)
 
 Por limitaciones de espacio en GitHub, los modelos entrenados y los vídeos de prueba no están incluidos directamente en el repositorio.  
 
-Puedes descargarlos desde el siguiente enlace:  
-[Descargar recursos](https://drive.google.com/drive/folders/1wnBFOA2DVNN2i2vS-LaKtV_D_cihSAqT?usp=drive_link)
+Puedes descargarlos desde el siguiente enlace: [Descargar recursos](https://drive.google.com/drive/folders/1wnBFOA2DVNN2i2vS-LaKtV_D_cihSAqT?usp=drive_link)
 
 ## Entrenamiento de los modelos
 
