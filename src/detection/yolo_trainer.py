@@ -90,7 +90,7 @@ class YOLOTrainer:
 
 
 if __name__ == "__main__":
-    model = YOLO("runs/detect/train4/weights/best.pt")
+    model = YOLO("runs/detect/yolo_model_v10/weights/best.pt")
 
     model.train(cfg="src/detection/yolov8_config.yaml", freeze=10, epochs=20)
     model.train(cfg="src/detection/yolov8_config.yaml", freeze=0, epochs=80)
