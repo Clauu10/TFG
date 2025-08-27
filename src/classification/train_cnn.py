@@ -21,11 +21,11 @@ def get_resnet_model(num_classes, checkpoint_path=None, device="cpu"):
     Returns:
         torch.nn.Module: Modelo ResNet-18 con la cabeza personalizada.
     """
-    model = models.resnet18(weights=models.ResNet18_Weights.IMAGENET1K_V1)
+    model = models.resnet18(weights="IMAGENET1K_V1")
     in_features = model.fc.in_features
 
     with_bn_head = False
-    if checkpoint_path and torch.cuda.is_available() or True:
+    if checkpoint_path and torch.cuda.is_available():
         state_dict = torch.load(checkpoint_path, map_location=device, weights_only=True)
         if any(k.startswith("fc.1.") for k in state_dict.keys()):
             with_bn_head = True
@@ -82,7 +82,7 @@ def _run(type, batch_size, epochs, lr, device):
         transforms_test=transforms_test
     )
 
-    model = get_resnet_model(num_classes, device=str(device)).to(device)
+    model = get_resnet_model(num_classes, checkpoint_path=None, device=str(device)).to(device)
     class_weights = get_class_weights(train_dataset, device)
 
     train_model(
