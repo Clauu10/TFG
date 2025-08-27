@@ -10,8 +10,7 @@ venv/
 /cnn2_archive/
 /cnn2_archive_balanced/
 /metrics/
-/video_mio/
-/videos/
+/video/
 
 # Ignorar archivos temporales y caché
 __pycache__/
